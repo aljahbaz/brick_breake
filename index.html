@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon Breaker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="start-screen">
+    <h2> Choose Difficulty</h2>
+    <button onclick="initGame()">Start Game</button>
+  </div>
+
+  <div id="ui" style="display: none;">
+    <h1>Neon Breaker</h1>
+    <canvas id="gameCanvas"></canvas>
+    <p>Score: <span id="score">0</span> | High Score: <span id="highScore">0</span></p>
+    <div class="controls">
+      <button id="restartBtn" onclick="restartGame()" style="display: none;">🔄 Restart</button>
+      <button id="muteBtn" onclick="toggleMute()">🔊</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
