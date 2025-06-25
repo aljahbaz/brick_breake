@@ -45,7 +45,7 @@ You can modify:
 
 ## Credits
 
-Developed by: **Marwan Al-Gharabli**
+Developed by: **Marwan Al-Gharably(aljahabz)**
 Powered by: JavaScript + HTML5 Canvas
 
 ---
